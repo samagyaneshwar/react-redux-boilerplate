@@ -1,0 +1,45 @@
+.wrapper {
+
+  display: block;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .title {
+    margin-top: 50px;
+  }
+
+  .title_input {
+    border: none;
+    border-bottom: 1px solid lightgrey;  
+    padding: 10px 5px;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  button {
+    margin-top: 15px;
+    width: 190px;
+    border: none;
+    color: white;
+    padding: 9px 0;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: teal;
+    cursor: pointer;
+    transition: transform 20ms linear;
+
+    &:focus {
+      outline: none;
+    }
+
+    &:hover {
+      transform: scale(1.01);
+    }
+  }
+
+}
